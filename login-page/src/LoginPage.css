@@ -1,0 +1,80 @@
+body{
+   background-color: rgb(228, 234, 235);
+}
+.LoginContainer{
+   display: flex;
+   flex-direction: row;
+   border-radius:20px;
+   box-shadow:10px 10px 10px 10px  rgb(202, 204, 204);
+   background-color: white;
+   margin: 70px;
+   width: 900px;
+   margin-left: 200px;
+  
+}
+h1{
+text-align: center;
+}
+img{
+   height: 510px;
+   width: 300px;
+   border-radius: 20px 0px 0px 20px;
+}
+.LoginControlls{
+   display: flex;
+   flex-direction:column;
+margin-left: 150px;
+
+   margin-top: 20px;
+
+}
+.nameLable{
+   color: black;
+   font-weight: bold;
+   margin: 15px;
+
+}
+.userInput{
+   border: none;
+   border-radius: 24px;
+   padding: 16px;
+   padding-right: 30px;
+   margin-top:10px;
+   box-shadow: 3px 3px 3px 3px rgb(186, 182, 182);
+}
+.siginIn{
+   padding: 16px ;
+   background-color: black;
+   color: white;
+   border-radius: 24px;
+   border: none;
+   font-weight:bold;
+   font-size: 14px;
+   margin-top: 28px;
+  cursor: pointer;
+}
+.siginIn:hover{
+   color: black;
+   background-color: rgb(233, 237, 239);
+
+}
+.siginUpContainer{
+   display: flex;
+   flex-direction: row;
+   margin-top: 10px;
+
+}
+.selectAccount{
+   color: black;
+   font-size: 15px;
+
+}
+h4{
+   margin-top:1px;
+   margin-left: 5px;
+   cursor: pointer;
+}
+.error{
+   color: red;
+   font-size: 13px;
+}
